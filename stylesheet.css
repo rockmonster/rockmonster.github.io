@@ -1,0 +1,132 @@
+body {
+	font-family: "Jacques Francois", serif;
+	font-size: 14pt;
+	margin: 0;
+	text-align: center;
+	color: #858585;
+	padding-top: 120px;
+	padding-bottom: 55px;
+	background-color: #050505;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+header	{
+	top: 15px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	background-color: rgba(0, 0, 0, .8);
+	width: 100%;
+	height: 91px;
+	position: fixed;
+	z-index: 2;
+}
+div#title {
+	font-family: "Cinzel Decorative", cursive;
+	font-weight: 600;
+	font-size: 45px;
+	color: #aaaaaa;
+}
+
+div#nav {
+	font-size: 22px;
+}
+div#nav ul {
+	margin: 0px;
+	padding: 0px;
+}
+div#nav ul li {
+	display: inline-block;
+}
+div#nav ul li:not(:first-child) {
+	margin-left: 30px;
+}
+a:hover{
+	color: #424242;
+	text-decoration: none
+}
+a:active{
+	color: #636363;
+	text-decoration: none;
+}
+div#front_page_image {
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	height: 100%;
+	z-index: 0;
+}
+div#front_page_image img {
+	max-width: 100%;
+	position: relative;
+	top: -20px;
+}
+div.portfolio{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+div.portfolio section{
+	width: 100%;
+}
+div#blurb{
+	width: 85%;
+	margin: 0 auto;
+	padding-top: 10px;
+	text-align: justify;
+	text-align-last: center;
+	font-size: 16px;
+	color: #858585;
+}
+div#resume{
+	padding: 30px 0px 20px 0px;
+	font-size: 25px;
+	/*color: #aaaaaa;*/
+}
+.showtitle{
+	font-family: "Cinzel Decorative", cursive;
+	font-size: 22px;
+	color: #aaaaaa;
+	padding-top: 30px;
+	padding-bottom: 0px;
+}
+.playwright{
+	padding-top: 0px;
+	padding-bottom: 20px;
+	color: #424242;
+}
+div.showlist ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.showimages{
+	margin: 0;
+	list-style: none;
+	text-align: center;
+}
+.showimages li{
+	display: inline-block;
+	padding: 0px 5px;
+}
+footer {
+	bottom: 30px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	background-color: rgba(0, 0, 0, .8);
+	width: 100%;
+	position: fixed;
+	z-index: 2;
+}
+footer ul {
+	margin: 0;
+	padding: 0;
+}
+footer ul li {
+	display: inline-block;
+}
+footer ul li:first-child {
+	margin-right: 100px;
+	font-size: 15px;
+}
