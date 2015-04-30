@@ -1,1 +1,1 @@
-include: ["images/*/_thumbnails"]
+include: ["images/properties/_thumbnails","images/scenicdesign/_thumbnails","images/scenicpainting/_thumbnails","images/technicaldirection/_thumbnails"]
